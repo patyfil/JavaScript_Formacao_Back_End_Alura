@@ -1,4 +1,6 @@
-//var
+// var, let e const
+
+// ************ var ************
 
 // var altura = 5;
 // var comprimento = 7;
@@ -7,7 +9,15 @@
 // console.log(area)
 // var area;
 
-// let forma = 'retângulo'
+// ************ let ************
+// let altura = 5;
+// let comprimento = 7;
+
+// area = altura * comprimento;
+// console.log(area)
+
+// ************************
+// let forma = 'triângulo'
 // let altura = 5;
 // let comprimento = 7;
 // let area;
@@ -20,16 +30,22 @@
 
 // console.log(area)
 
-const forma = 'quadrado';
+// ************ const ************
+// const altura = 5;
+// const comprimento = 7;
+
+// const area = altura * comprimento;
+// console.log(area)
+
+const forma = "triangulo";
 const altura = 5;
 const comprimento = 7;
 let area;
 
-if (forma === 'quadrado'){
-    area = altura * comprimento;
-}else{
-    area = (altura * comprimento) / 2;
+if (forma === "quadrado") {
+  area = altura * comprimento;
+} else {
+  area = (altura * comprimento) / 2;
 }
 
-console.log(area)
-
+console.log(area);
